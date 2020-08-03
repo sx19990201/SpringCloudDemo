@@ -1,0 +1,19 @@
+server:
+  port: 9301
+spring:
+  application:
+    name: admin-security-server
+  security:
+    user:
+      name: admin
+      password: admin
+  boot:
+    admin:
+      discovery:
+        ignored-services: ${spring.application.name}
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+    register-with-eureka: true
+    fetch-registry: true

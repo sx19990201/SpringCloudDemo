@@ -1,0 +1,13 @@
+server:
+  port: 8103 #运行端口号
+spring:
+  application:
+    name: eureka-client #服务名称
+eureka:
+  server:
+    enable-self-preservation: false # 测试时关闭自我保护机制，保证不可用服务及时踢出【生成环境不要打开】
+  client:
+    register-with-eureka: true #注册到Eureka的注册中心
+    fetch-registry: true #获取注册实例列表
+    service-url:
+      defaultZone: http://admin:admin@localhost:8004/eureka/

@@ -1,0 +1,28 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: zool-proxy
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+zuul:
+  routes: #给服务配置路由
+    ribbon-user-web:
+      path: /userService/**
+    feign-service:
+      path: /feignService/**
+  #ignored-services: feign-service  #关闭默认路由配置
+  #prefix: /proxy
+  add-host-header: true #设置为true重定向是会添加host请求头
+  PreLogFilter: #自定义的过滤器名
+    pre:  #过滤器的类型
+      disable: true #是否启用过滤器
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'routes'

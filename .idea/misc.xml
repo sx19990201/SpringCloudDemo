@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-security-server/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon-user-serivce/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon-serivce/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbon-user-web/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-service/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/turbine-service/pom.xml" />
+        <option value="$PROJECT_DIR$/turbline-service/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-service/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/config-service/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/config-security-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zikpin-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-ribbon-service/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/admin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/admin-client/pom.xml" />
+        <option value="$PROJECT_DIR$/admin-security-server/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth2-server/pom.xml" />
+        <option value="$PROJECT_DIR$/oauth2-jwt-server/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/turbine-service/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

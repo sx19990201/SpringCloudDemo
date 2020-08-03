@@ -1,0 +1,23 @@
+server:
+  port: 8905
+spring:
+  application:
+    name: config-security-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sx19990201/MyRepository.git
+          username: sx19990201
+          password: sx429004199903182574
+          clone-on-start: true
+  security:
+    user:
+      name: admin
+      password: admin
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8001/eureka/

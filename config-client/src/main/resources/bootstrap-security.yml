@@ -1,0 +1,14 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      profile: dev
+      label: dev
+      uri: http://localhost:8905
+      name: config
+      username: admin
+      password: admin
+
